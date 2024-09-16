@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(125, 125, 125);
+    font-size: 25px;
+    text-align: center;
+    background-image: url(../img/i376482.webp);
+    background-size: contain; 
+/*background-repeat: no-repeat;  não deixa a imagem repetir */
+
+}
+
+h1{
+    color: rgb(138, 165, 42);
+    text-align: center;
+}
+
+h2{
+    color: rgb(138, 165, 42);
+    text-align: center;
+}
+
+h3{
+    color: rgb(138, 165, 42);
+    text-align: center;
+}
+
+p{
+    background-color: rgb(92, 98, 104);
+    text-align: center;
+}
+h4{
+    color: rgb(138, 165, 42);
+    text-align: center;
+}
+#genero1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#diretor1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
