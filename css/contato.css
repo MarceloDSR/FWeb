@@ -1,0 +1,11 @@
+#imagem{
+    background-image: url(../img/133075234.jfif);
+    width: 50%;
+    height: auto;
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+
+h2{
+    border-bottom: 2px solid #333333;
+}
