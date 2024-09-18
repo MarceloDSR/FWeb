@@ -1,11 +1,19 @@
 #imagem{
-    background-image: url(../img/133075234.jfif);
-    width: 50%;
-    height: auto;
-    background-size: contain; 
-    background-repeat: no-repeat;
+    width: 200px;
+    border: #333333 solid 2px;
+    margin: 50px 0px 50px 20px;
+}
+#imagem img{
+    width: 250px;
+    margin: 50px 0px 50px 20px;
 }
 
-h2{
-    border-bottom: 2px solid #333333;
+
+
+#diferenciais{
+    border: #333333 solid 2px;
+    padding: 20px 2px 3px 10px;
+    margin: 50px 0px 50px 20px; /*para simplificar posso por um para cada
+    padding-left: 10px; por exemplo.
+    */
 }
