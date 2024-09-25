@@ -44,3 +44,44 @@ img{
     color: #003366;
     text-decoration: none;
 }
+
+.busca h2{
+    margin: 10px;
+}
+
+.busca form{
+    margin: 10px;
+}
+
+.menu-conteudo h2{
+    margin: 10px;
+}
+
+.busca{
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 230px;
+    margin-right: 10px;
+    float: left;
+}
+.menu-conteudo{
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 230px;
+    margin-right: 10px;
+    float: left;
+    clear: left;
+}
+
+.menu-conteudo li{
+    background-color: white;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+
+.menu-conteudo a{
+    background-color: white;
+}
+
+
+
