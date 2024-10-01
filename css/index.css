@@ -44,3 +44,39 @@ img{
     color: #003366;
     text-decoration: none;
 }
+
+.painel, .aula1 img{
+
+
+}
+.painel{
+    margin: 10px 0px;
+    padding: 15px;
+
+}
+
+.aula1{
+    float: left;
+    background-color: rgb(161, 161, 161);
+}
+
+.blog{
+    float: right;
+    background-color: rgb(161, 161, 161);
+}
+
+.painel li{
+    display: inline-block;
+    vertical-align: top;
+    width: 150px;
+    margin: 2px;
+    padding-bottom: 10px;
+}
+.painel h2{
+    font-size: 30px;
+}
+
+.painel a{
+    color: #003366;
+    font-size: 15px;
+}
