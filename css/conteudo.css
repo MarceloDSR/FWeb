@@ -108,3 +108,14 @@ img {
     margin-right: 10px;
     float: left;
 }
+
+.menu-conteudo li ul{
+    display:none;
+}
+
+.menu-conteudo li:hover ul{
+    display:block;
+}
+.menu-conteudo ul ul li{
+    background-color: #dcdcdc;
+}

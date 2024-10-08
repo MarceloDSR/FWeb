@@ -138,3 +138,11 @@ footer{
 footer p{
     margin-bottom: 10px;
 }
+
+.menu-opcoes a:before{
+    content: "<";
+}
+
+.menu-opcoes a:after{
+    content: ">";
+}
