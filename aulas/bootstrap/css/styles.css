@@ -1,0 +1,138 @@
+
+.blog-header {
+    background-color: #333;
+    color: #fff;
+}
+
+.blog-header .container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.blog-logo h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav {
+    gap: 15px;
+}
+
+.nav .nav-link {
+    color: #ddd;
+    font-weight: 600;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+.nav .nav-link:hover {
+    color: #007bff;
+}
+
+.nav .nav-link.active {
+    color: #fff;
+    font-weight: bold;
+    border-bottom: 2px solid #007bff;
+}
+
+
+.main-quadrado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    padding: 20px;
+    background-color: #f0f2f5;
+}
+
+
+.quadrado-centro {
+    visibility: hidden; 
+    height: 0; 
+    overflow: hidden; 
+    transition: visibility 0s, height 0.5s ease; 
+}
+
+
+.sobre-container {
+    display: flex;
+    align-items: center; 
+}
+
+.foto-sobre {
+    width: 150px; 
+    height: auto; 
+    margin-right: 20px; 
+}
+
+.texto-sobre {
+    font-weight: bold; 
+}
+
+
+.quadrado-centro h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.quadrado-centro p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+
+.quadrado-centro ul {
+    list-style: none; 
+    padding: 0;
+}
+
+.quadrado-centro li {
+    margin: 10px 0; 
+}
+
+.quadrado-centro a {
+    color: #007bff;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.quadrado-centro a:hover {
+    color: #0056b3;
+}
+
+
+.reflexao {
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+}
+
+.reflexao h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.reflexao blockquote {
+    font-size: 18px;
+    font-style: italic;
+    color: #777;
+    margin: 15px 0;
+    padding-left: 15px;
+    border-left: 4px solid #007bff;
+}
+
+
+.rodape {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}

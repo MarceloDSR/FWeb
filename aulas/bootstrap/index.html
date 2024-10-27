@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <header class="blog-header py-3 mb-4 border-bottom">
+        <div class="container d-flex flex-wrap justify-content-between align-items-center">
+            <a href="/" class="blog-logo text-decoration-none">
+                <h1>Marcelo Dev Blog</h1>
+            </a>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a href="#sobre" class="nav-link active" onclick="showSection('sobre')">Sobre Mim</a></li>
+                    <li class="nav-item"><a href="#tutoriais" class="nav-link" onclick="showSection('tutoriais')">Tutoriais</a></li>
+                    <li class="nav-item"><a href="#projetos" class="nav-link" onclick="showSection('projetos')">Projetos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-quadrado">
+        <section id="sobre" class="quadrado-centro">
+            <h2>Sobre Mim</h2>
+            <div class="sobre-container">
+                <img src="./img/IMG_4604.JPEG" alt="Foto de Marcelo" class="foto-sobre">
+                <p class="texto-sobre">
+                    Olá! Sou <strong>Marcelo Rodrigues</strong>, um estudante de programação apaixonado por tecnologia e desenvolvimento de software. Estou atualmente cursando Análise e Desenvolvimento de Sistemas na UNISINOS e o técnico em Desenvolvimento de Sistemas no SENAC. Minha jornada no mundo da programação começou em 2023, e estou sempre em busca de novos conhecimentos e desafios.
+                </p>
+            </div>
+        </section>
+
+        <section id="tutoriais" class="quadrado-centro">
+            <h2>Tutoriais</h2>
+            <img src="./img/icons8-javascript-48.png" alt="JavaScript Logo" style="max-width: 100px;"> 
+            <p><strong>Aqui você encontrará uma seleção de tutoriais que escrevi, abordando diferentes tópicos de programação e desenvolvimento de software.</strong></strong></p>
+            <ul>
+                <li><a href="https://github.com/MarceloDSR/tutorialJavaScript" target="_blank">Introdução ao JavaScript</a></li>
+            </ul>
+        </section>
+
+        <section id="projetos" class="quadrado-centro">
+            <h2>Projetos</h2>
+            <p><strong>Veja alguns dos projetos que desenvolvi durante minha jornada como estudante de programação.</strong></p>
+            <ul>
+                <li><a href="https://marcelodsr.github.io/" target="_blank">Projeto 1: Meu Primeiro Site</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>&copy; 2024 Marcelo Rodrigues, Inc.</p>
+    </footer>
+
+    <script>
+        function showSection(sectionId) {
+            const sections = document.querySelectorAll('.quadrado-centro');
+            sections.forEach(section => {
+                section.style.visibility = 'hidden'; 
+                section.style.height = '0'; 
+            });
+
+            const activeSection = document.getElementById(sectionId);
+            if (activeSection) {
+                activeSection.style.visibility = 'visible'; 
+                activeSection.style.height = 'auto'; 
+            }
+        }
+    </script>
+</body>
+
+</html>
