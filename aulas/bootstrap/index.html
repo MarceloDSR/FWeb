@@ -18,9 +18,9 @@
             </a>
             <nav>
                 <ul class="nav">
-                    <li class="nav-item"><a href="#sobre" class="nav-link active" onclick="showSection('sobre')">Sobre Mim</a></li>
-                    <li class="nav-item"><a href="#tutoriais" class="nav-link" onclick="showSection('tutoriais')">Tutoriais</a></li>
-                    <li class="nav-item"><a href="#projetos" class="nav-link" onclick="showSection('projetos')">Projetos</a></li>
+                    <li class="nav-item"><a href="#sobre" class="nav-link active" onclick="mostrarSecao('sobre')">Sobre Mim</a></li>
+                    <li class="nav-item"><a href="#tutoriais" class="nav-link" onclick="mostrarSecao('tutoriais')">Tutoriais</a></li>
+                    <li class="nav-item"><a href="#projetos" class="nav-link" onclick="mostrarSecao('projetos')">Projetos</a></li>
                 </ul>
             </nav>
         </div>
@@ -60,17 +60,17 @@
     </footer>
 
     <script>
-        function showSection(sectionId) {
-            const sections = document.querySelectorAll('.quadrado-centro');
-            sections.forEach(section => {
-                section.style.visibility = 'hidden'; 
-                section.style.height = '0'; 
+        function mostrarSecao(idSecao) {
+            const secoes = document.querySelectorAll('.quadrado-centro');
+            secoes.forEach(secao => {
+                secao.style.visibility = 'hidden'; 
+                secao.style.height = '0'; 
             });
 
-            const activeSection = document.getElementById(sectionId);
-            if (activeSection) {
-                activeSection.style.visibility = 'visible'; 
-                activeSection.style.height = 'auto'; 
+            const secaoAtiva = document.getElementById(idSecao);
+            if (secaoAtiva) {
+                secaoAtiva.style.visibility = 'visible'; 
+                secaoAtiva.style.height = 'auto'; 
             }
         }
     </script>
