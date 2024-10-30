@@ -1,5 +1,5 @@
 .blog-header {
-    background-color: #333;
+    background-color: black;
     color: #fff;
 }
 
@@ -104,7 +104,7 @@
 }
 
 .rodape {
-    background-color: #333;
+    background-color: black;
     color: white;
     text-align: center;
     padding: 1em 0;
