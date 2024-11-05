@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    
+    <link rel="stylesheet" href="./css/calculadora.css">
+    <script src="js/calculadora.js"></script>
+</head>
+<body>
+    <main>
+        <form>
+            <input type="text" id="display" readonly>
+        </form>
+        <div class="container">
+            <button id="botao" onclick="addNumber(1)">1</button>
+            <button id="botao" onclick="addNumber(2)">2</button>
+            <button id="botao" onclick="addNumber(3)">3</button>
+            <button id="botao" onclick="addNumber(4)">4</button>
+            <button id="botao" onclick="addNumber(5)">5</button>
+            <button id="botao" onclick="addNumber(6)">6</button>
+            <button id="botao" onclick="addNumber(7)">7</button>
+            <button id="botao" onclick="addNumber(8)">8</button>
+            <button id="botao" onclick="addNumber(9)">9</button>
+            <button id="botao" onclick="addNumber(0)">0</button>
+            <button id="botao" onclick="caculate()">=</button>
+            <button id="botao" onclick="addOperator()">+</button>
+            <button id="botao" onclick="addOperator()">-</button>
+            <button id="botao" onclick="addOperator()">x</button>
+            <button id="botao" onclick="addOperator()">÷</button>
+            <button id="botao" onclick="clearText()">AC</button>
+            <button id="botao" onclick="addOperator()">%</button>
+            <button id="botao" onclick="addDecimal()">,</button>
+            <button id="botao" onclick="deleteLast()">DEL</button>
+        </div>
+    </main>
+</body>
+</html>
+
