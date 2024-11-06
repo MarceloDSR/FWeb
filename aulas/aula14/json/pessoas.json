@@ -1,0 +1,38 @@
+{
+    "pessoa1": {
+        "nome": "Marcelo",
+        "idade": 33,
+        "cpf": "02581854060",
+        "telefone": "051999333478"
+    },
+
+    "pessoa2": {
+        "nome": "Marcelo Carli",
+        "idade": 33,
+        "cpf": "05882950256",
+        "telefone": "051999999999"
+    },
+
+    "pessoa3": {
+        "nome": "Otto",
+        "idade": 18,
+        "cpf": "00022233345",
+        "telefone": "051988999000"
+    },
+
+    "pessoa4": {
+        "nome": "Joao",
+        "idade": 30,
+        "cpf": "00000000000",
+        "telefone": "000000000000"
+    },
+
+    "pessoa5": {
+        "nome": "Mufas",
+        "idade": 17,
+        "cpf": "98702674523",
+        "telefone": "051765891022"
+    }
+}
+
+
