@@ -31,5 +31,22 @@ const showPokemon = async (pokemon) => {
 
 };
 
+formNome.addEventListener("submit", (event) =>{
+    event.preventDefault()
+    showPokemon(input.value.toLowerCase())
+})
 
-showPokemon(`charizard`);
+btnA.addEventListener("click", (event) =>{
+    event.preventDefault()
+    if(idPoke>1){
+        idPoke -=1
+        showPokemon(idPoke)
+    }
+})
+
+btnB.addEventListener("click", (event) =>{
+    event.preventDefault()
+    showPokemon(idPoke)
+
+})
+
