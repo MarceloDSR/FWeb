@@ -6,7 +6,10 @@ const nomePokemon = document.querySelector("#nomePokemon");
 const pesoPokemon = document.querySelector("#pesoPokemon");
 const alturaPokemon = document.querySelector("#alturaPokemon")
 const audioPokemon = document.querySelector("#audioPokemon")
-const inout = document.querySelector("#inputNome")
+const input = document.querySelector("#inputNome")
+const formNome = document.querySelector("#formNome")
+const btnA = document.querySelector("#btnA")
+const btnB = document.querySelector("#btnB")
 
 let idPoke = 1
 
@@ -24,10 +27,12 @@ const showPokemon = async (pokemon) => {
     nomePokemon.innerHTML = infoPokemon.name;
     imgPokemon.src = infoPokemon.sprites.front_default;
     tipo1.innerHTML = infoPokemon.types[0].type.name;
+    tipo2.innerHTML =''
     tipo2.innerHTML = infoPokemon.types[1].type.name;
     audioPokemon.src = infoPokemon.cries.latest;
-    pesoPokemon.innerHTML = (infoPokemon.weight * 0,453592).toFixed(1)
-    alturaPokemon.innerHTML = (infoPokemon.height * 0,3048).toFixed(1)
+    pesoPokemon.innerHTML = (infoPokemon.weight * 0.453592).toFixed(1)
+    alturaPokemon.innerHTML = (infoPokemon.height * 0.3048).toFixed(1)
+    audioPokemon.play();
 
 };
 
@@ -46,7 +51,9 @@ btnA.addEventListener("click", (event) =>{
 
 btnB.addEventListener("click", (event) =>{
     event.preventDefault()
+    idPoke++
     showPokemon(idPoke)
 
 })
 
+showPokemon(idPoke)
