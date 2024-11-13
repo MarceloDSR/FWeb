@@ -41,7 +41,8 @@ main {
 #TituloNomePokemon{
     position: absolute;
     top: 61%;
-    left: 41%;
+    left: 30%;
+    font-size: 25px;
 }
 
 form{
