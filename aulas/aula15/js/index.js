@@ -43,7 +43,7 @@ formNome.addEventListener("submit", (event) =>{
 
 btnA.addEventListener("click", (event) =>{
     event.preventDefault()
-    if(idPoke>1){
+    if(idPoke > 1){
         idPoke -=1
         showPokemon(idPoke)
     }
@@ -56,4 +56,7 @@ btnB.addEventListener("click", (event) =>{
 
 })
 
+function playMusica(){
+    musica.play();
+}
 showPokemon(idPoke)
