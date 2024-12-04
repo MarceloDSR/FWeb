@@ -67,14 +67,15 @@
     
     .btn-inscrever {
         border-radius: 30px;
-        margin-bottom: 30px;
-        color: #1A1C27;
+        margin-bottom: 100%;
+        background-color: #1A1C27;
+        color: #A89907;
+    }
+    .logo{
+        width: 40%;
+        height: 40%;
     }
     
 
-}
-.logo{
-    width: 40%;
-    height: 40%;
 }
 
