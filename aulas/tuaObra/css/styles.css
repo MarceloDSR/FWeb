@@ -1,5 +1,80 @@
 @media screen and  (max-width:414px){
-    body{
-        background-color: #E9E4BB;
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        margin: 0;
+        padding: 0;
     }
+    
+    header {
+        background-color: #F5DD54;
+        color: #1A1C27;
+        text-align: center;
+        padding: 1px 0;
+    }
+    
+    header .logo h1 {
+        position: absolute;
+        top: 20%;
+        left: 30%;
+        font-size: 25px;
+    }
+    
+    header .fraseTitulo p {
+        top: 20%;
+        left: 30%;
+        font-size: 15px;
+        
+    }
+    
+    
+    .quem-somos {
+        padding: 40px 20px;
+        background-color: #e9e4bb;
+        text-align: center;
+    }
+    
+    .quem-somos h2 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+        color: #1A1C27;
+    }
+    
+    .quem-somos p {
+        font-size: 1.2em;
+        max-width: 800px;
+        color: #1A1C27;
+        
+    }
+    
+    
+    .inscricao {
+        padding: 40px 20px;
+        text-align: center;
+        background-color: #e9e4bb;
+    }
+    
+    .inscricao h2 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+    }
+    
+    .inscricao p {
+        font-size: 1.2em;
+    }
+    
+    .btn-inscrever {
+        border-radius: 30px;
+        margin-bottom: 30px;
+        color: #1A1C27;
+    }
+    
+
 }
+.logo{
+    width: 40%;
+    height: 40%;
+}
+
