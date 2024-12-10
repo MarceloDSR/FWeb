@@ -96,7 +96,8 @@ form button {
     font-size: 0.8rem;
     color: #666;
     background-color: #F5DD54;
-    margin-top: 65%;
+    margin-top: 85%;
+    margin: 0;
     width: 100%;
     left: 0;
 }
@@ -140,9 +141,12 @@ form button {
 
     body {
         font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
         background-color: #E9E4BB;
         color: #333;
-        margin: 0;
+        font-size: 16px;
+        line-height: 1.5;
     }
     
     .header {
