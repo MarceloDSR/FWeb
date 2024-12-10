@@ -1,8 +1,8 @@
 @media screen and  (max-width:414px){
 
-    body {
+    body,html {
         font-family: Arial, sans-serif;
-        background-color: #f4f4f4;
+        background-color: #e9e4bb;
         color: #333;
         margin: 0;
         padding: 0;
@@ -75,7 +75,69 @@
         width: 40%;
         height: 40%;
     }
-    
+    .bemVindo{
+        position: absolute;
+        top: 85%;
+        left: 5%;
+        font-size: 25px;
+    }
+    .bemVindo p{
+        position: absolute;
+        top: 95%;
+        left:45%;
+    }
+
+    footer{
+        font-size: 10px;
+        position: absolute;
+        left: 5%;
+        top: 200%;
+    }
+    #btnDoar{
+        position: absolute;
+        border-radius: 30px;
+        margin-bottom: 100%;
+        background-color: #1A1C27;
+        color: #A89907;
+        top: 95%;
+        left: 25%;
+        width: 50%;
+
+    }
+
+    #btnReceber{
+        position: absolute;
+        border-radius: 30px;
+        margin-bottom: 100%;
+        background-color: #1A1C27;
+        color: #A89907;
+        top: 165%;
+        left: 25%;
+        width: 50%;
+    }
+
+    #h1BemVindo{
+        position: absolute;
+        top: 70%;
+        left: 30%;
+    }
+
+    #LogoBV{
+        position: absolute;
+        top: 130%;
+        left: 25%;
+
+    }
+
+    #LogoBV p{
+        position: absolute;
+        top: 125%;
+        left: 5%;
+        font-size: large;
+        font-family: Arial, sans-serif;
+        color: #1A1C27;
+
+    }
 
 }
 
