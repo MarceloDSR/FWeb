@@ -1,17 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E9E4BB;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.header {
+    text-align: center;
+    padding: 10px;
+    background-color: #F5DD54;
+}
+
+.header .logo {
+    width: 60px;
+    height: auto;
+}
+
+.header h1 {
+    margin: 5px 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.header p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.content {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+p {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 0.9rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+form button {
+    margin-top: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    width: 48%;
+}
+
+#footer-index {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8rem;
+    color: #666;
+    background-color: #F5DD54;
+    margin-top: 65%;
+}
+
+#footer-cadastro{
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8rem;
+    color: #666;
+    background-color: #F5DD54;
+    margin-top: 1%;
+}
+
+#footer-login{
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8rem;
+    color: #666;
+    background-color: #F5DD54;
+    margin-top: 85%;
+}
+
+
 @media screen and  (max-width:414px){
 
-    body,html {
+    body {
         font-family: Arial, sans-serif;
-        background-color: #e9e4bb;
-        color: #565A5B;
+        background-color: #f4f4f4;
+        color: #333;
         margin: 0;
         padding: 0;
     }
     
     header {
-        height: 20%;
         background-color: #F5DD54;
-        color: #565A5B;
+        color: #1A1C27;
         text-align: center;
         padding: 1px 0;
     }
@@ -40,13 +159,13 @@
     .quem-somos h2 {
         font-size: 2.5em;
         margin-bottom: 20px;
-        color: #565A5B;
+        color: #1A1C27;
     }
     
     .quem-somos p {
         font-size: 1.2em;
         max-width: 800px;
-        color: #565A5B;
+        color: #1A1C27;
         
     }
     
@@ -76,69 +195,6 @@
         width: 40%;
         height: 40%;
     }
-    .bemVindo{
-        position: absolute;
-        top: 85%;
-        left: 5%;
-        font-size: 25px;
-    }
-    .bemVindo p{
-        position: absolute;
-        top: 95%;
-        left:45%;
-    }
-
-    footer{
-        font-size: 10px;
-        position: absolute;
-        left: 5%;
-        top: 200%;
-    }
-    #btnDoar{
-        position: absolute;
-        border-radius: 30px;
-        margin-bottom: 100%;
-        background-color: #1A1C27;
-        color: #A89907;
-        top: 95%;
-        left: 25%;
-        width: 50%;
-
-    }
-
-    #btnReceber{
-        position: absolute;
-        border-radius: 30px;
-        margin-bottom: 100%;
-        background-color: #1A1C27;
-        color: #A89907;
-        top: 165%;
-        left: 25%;
-        width: 50%;
-    }
-
-    #h1BemVindo{
-        position: absolute;
-        top: 70%;
-        left: 30%;
-    }
-
-    #LogoBV{
-        position: absolute;
-        top: 130%;
-        left: 25%;
-
-    }
-
-    #LogoBV p{
-        position: absolute;
-        top: 125%;
-        left: 5%;
-        font-size: large;
-        font-family: Arial, sans-serif;
-        color: #565A5B;
-
-    }
+    
 
 }
-
