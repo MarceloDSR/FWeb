@@ -144,7 +144,7 @@ form button {
         margin: 0;
         padding: 0;
         background-color: #E9E4BB;
-        color: #333;
+        color: #565A5B;
         font-size: 16px;
         line-height: 1.5;
     }
@@ -163,16 +163,15 @@ form button {
     .header h1 {
         margin: 5px 0;
         font-size: 1.5rem;
-        color: #333;
+        color: #565A5B;
     }
     
     .header p {
         font-size: 0.9rem;
-        color: #666;
+        color: #565A5B;
     }
     
     .quem-somos {
-        padding: 40px 20px;
         background-color: #e9e4bb;
         text-align: center;
     }
@@ -180,13 +179,13 @@ form button {
     .quem-somos h2 {
         font-size: 2.5em;
         margin-bottom: 20px;
-        color: #1A1C27;
+        color: #565A5B;
     }
     
     .quem-somos p {
         font-size: 1.2em;
         max-width: 800px;
-        color: #1A1C27;
+        color: #565A5B;
         
     }
     
@@ -207,6 +206,12 @@ form button {
     }
     
     .btn-inscrever {
+        border-radius: 30px;
+        margin-bottom: 100%;
+        background-color: #1A1C27;
+        color: #A89907;
+    }
+    #btnCadastro{
         border-radius: 30px;
         margin-bottom: 100%;
         background-color: #1A1C27;
