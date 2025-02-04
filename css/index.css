@@ -49,6 +49,7 @@ img{
 .painel{
     margin: 10px 0px;
     padding: 15px;
+    width: 40%;
 
 }
 
@@ -87,8 +88,6 @@ footer{
     height: 20%;
     clear: both;
 }
-
-
 
 .social a[href*="instagram.com"]{
     background-image: url(../img/icons8-instagram-48.png);

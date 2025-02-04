@@ -1,19 +1,157 @@
-#imagem{
-    width: 200px;
-    border: #333333 solid 2px;
-    margin: 50px 0px 50px 20px;
-}
-#imagem img{
-    width: 250px;
-    margin: 50px 0px 50px 20px;
+/* Reset básico para garantir um layout consistente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
 
-#diferenciais{
-    border: #333333 solid 2px;
-    padding: 20px 2px 3px 10px;
-    margin: 50px 0px 50px 20px; /*para simplificar posso por um para cada
-    padding-left: 10px; por exemplo.
-    */
+
+.header {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.container h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+
+.perfil {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+#imagem {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.imagem-perfil {
+    width: 100%;
+    height: auto;
+}
+
+.informacoes {
+    max-width: 600px;
+}
+
+
+h3 {
+    color: black;
+    margin-top: 20px;
+    font-size: 1.6rem;
+}
+
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+    font-size: 1.2rem;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+
+.social-links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-links li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.social-links li a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+.social-links a[href*="instagram.com"]{
+    background-image: url(../img/icons8-instagram-48.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+
+.social-links a[href*="github.com"]{
+    background-image: url(../img/devicon--github-wordmark.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+
+.social-links a[href*="linkedin.com"]{
+    background-image: url(../img/skill-icons--linkedin.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+
+.container-footer{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.social-links a{
+    height: 40px;
+    width: 40px;
+}
+
+.social-links{
+    display: flex;
+    /* justify-content: center; */
+    gap: 15px;
+    margin-bottom: 10px;
+    margin: 15px;
+}
+
+footer{
+    height: 20%;
+    clear: both;
 }
