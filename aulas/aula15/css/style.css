@@ -1,4 +1,4 @@
-html, body{
+html, body {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -7,6 +7,10 @@ html, body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url('../img/story_region_1.jpg');
+    background-size: 100% 100%; /* A imagem vai cobrir todo o fundo */
+    background-position: center;
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
 }
 
 main {
@@ -50,7 +54,7 @@ form{
     position: absolute;
     align-items: center;
     justify-self: center;
-    top: 75%;
+    top: 70%;
     left: 20%;
     height: 8%;
     width: 75%;
@@ -60,15 +64,17 @@ form{
 #inputNome{
     height: 45%;
     width: 90%;
+    position: absolute;
     border: 2px solid black;
     border-radius: 10px;
     box-shadow: -3px 4px 0 gray;
+    top: 15%;
 }
 
 #tituloInfo{
     font-size: 25px;
     position: absolute;
-    top: 80%;
+    top: 75%;
     left: 20%;
 }
 
@@ -77,6 +83,7 @@ form{
     left: 20%;
     display: flex;
     gap: 130%;
+    top: 95%;
 }
 .button{
     border: 2px solid black;
